@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>DemoFace</groupId>
+    <artifactId>face</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>/src/main/resources</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>6</source>
+                    <target>6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+
+    <dependencies>
+        <!--bridj.jar -->
+        <dependency>
+            <groupId>com.nativelibs4java</groupId>
+            <artifactId>bridj</artifactId>
+            <version>0.7.0</version>
+        </dependency>
+
+
+
+        <!--slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.8.0-beta4</version>
+        </dependency>
+
+        <!-- slf4j-simple -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.8.0-beta2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.11</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/commons-dbutils/commons-dbutils -->
+        <dependency>
+            <groupId>commons-dbutils</groupId>
+            <artifactId>commons-dbutils</artifactId>
+            <version>1.7</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.8.0-beta2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-nop -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>1.8.0-beta4</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.sarxos/webcam-capture -->
+        <dependency>
+            <groupId>com.github.sarxos</groupId>
+            <artifactId>webcam-capture</artifactId>
+            <version>0.3.12</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations-java5</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.mchange/c3p0 -->
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.5.2</version>
+        </dependency>
+
+
+    </dependencies>
+
+</project>

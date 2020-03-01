@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="arcsoft-sdk-face-2.2.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/bin/arcsoft-sdk-face-2.2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/bin/opencv-411.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/bin/arcsoft-sdk-face-2.2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/bin/opencv-411.jar!/" />
+    </SOURCES>
+  </library>
+</component>

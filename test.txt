@@ -1,7 +1,5 @@
 ĞŞ¸ÄÍêÁË
-addd +aaa
-//asdfasdfadf
-adsfasdf
-adsfasdf
-b = 2
-adsfaf
+addd 
+asdfsadf
+adsf
+asdf
